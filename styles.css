@@ -1230,7 +1230,7 @@ p {
   }
   .cover-front:nth-child(1) h1 {
     font-family: "Lora", serif;
-    font-size: 80px; /* 50% lebih besar untuk judul */
+    font-size: 75px; /* 50% lebih besar untuk judul */
     color: #cdcfd1;
     margin-top: 98px;
     text-transform: uppercase;
