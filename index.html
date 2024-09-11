@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buku</title>
+</head>
+
+<body>
+    <div class="instruction">
+        <div class="book">
+            <div class="page cover-front" onclick="movePage(this, 1)">
+                <h1>Parita Suci</h1>
+                <i class="fab">
+                    <img class="hat" src="icon/dhammacakra.png" alt="dhammacakra">
+                </i>
+                <h2>Buddha</h2>
+                <i class="fab">
+                    <img class="permadis" src="icon/logoPermadis.png" alt="PERMADIS">
+                </i>
+            </div>
+            <div class="page cover-front" onclick="movePage(this, 2)"></div>
+            <div class="page text-page" onclick="movePage(this, 3)">
+                <p>Mrs. Dalloway said she would buy the flowers herself.</p>
+                <p>For Lucy had her work cut out for her. The doors would be taken off their hinges; Rumpelmayer's men
+                    were coming. And then, thought Clarissa Dalloway, what a morning--fresh as if issued to children on
+                    a beach.</p>
+                <p>What a lark! What a plunge! For so it had always seemed to her, when, with a little squeak of the
+                    hinges, which she could hear now, she had burst open the French windows and plunged at Bourton into
+                    the open air.</p>
+            </div>
+            <div class="page text-page" onclick="movePage(this,4)"></div>
+            <div class="page text-page" onclick="movePage(this,5)">
+                <p>Mrs. Dalloway said she would buy the flowers herself.</p>
+                <p>For Lucy had her work cut out for her. The doors would be taken off their hinges; Rumpelmayer's men
+                    were coming. And then, thought Clarissa Dalloway, what a morning--fresh as if issued to children on
+                    a beach.</p>
+                <p>What a lark! What a plunge! For so it had always seemed to her, when, with a little squeak of the
+                    hinges, which she could hear now, she had burst open the French windows and plunged at Bourton into
+                    the open air.</p>
+            </div>
+            <div class="page text-page" onclick="movePage(this,6)"></div>
+        </div>
+    </div>
+    <script>
+        for (let i = 0; i < 94; i++) {
+            const pageDiv = document.createElement('div');
+            pageDiv.className = 'page';
+            document.querySelector('.book').appendChild(pageDiv);
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
