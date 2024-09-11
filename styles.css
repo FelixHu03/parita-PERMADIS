@@ -19,9 +19,9 @@ body {
   min-width: 900px;
   min-height: 700px;
   background-image: url("./icon/teratai.jpg");
-  background-size: cover; /* Menutup seluruh elemen */
-  background-position: center; /* Posisi gambar di tengah */
-  background-repeat: no-repeat; /* Tidak mengulang gambar */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -1204,7 +1204,10 @@ p {
   body {
     width: 80%;
     height: 0px;
-    background: #fbecb4;
+    background-image: url("./icon/teratai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
   }
   .page {
