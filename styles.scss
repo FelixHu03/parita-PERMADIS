@@ -1199,7 +1199,7 @@ p {
 }
 .cover-front:nth-child(1) .hat {
   font-size: 10px; /* 50% lebih besar untuk ikon "hat" */
-  width: 60%;
+  width: 75%;
   height: -10%;
   color: #134a78;
   position: relative;
@@ -1258,20 +1258,22 @@ p {
     color: #cdcfd1;
     position: relative;
     top: 30%;
+    // display: block;
   }
 
   .cover-front:nth-child(1) .hat {
     font-size: 10px; /* 50% lebih besar untuk ikon "hat" */
     color: #134a78;
     position: relative;
-    top: 8%;
+    top: 1%;
   }
   .cover-front:nth-child(1) .permadis {
     font-size: 57px;
     width: 20%;
     color: #134a78;
     position: relative;
-    top: 40%;
+    // top: 40%;
+    display: inline;
   }
   .page:nth-child(1) {
     padding: 9% 7.5%
