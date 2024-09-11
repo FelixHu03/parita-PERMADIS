@@ -1249,10 +1249,12 @@ p {
     top: 30%;
   }
   .cover-front:nth-child(1) .hat {
-    font-size: 10px; /* 50% lebih besar untuk ikon "hat" */
+    font-size: 20px; /* 50% lebih besar untuk ikon "hat" */
+    width: 99%;
+    height: -10%;
     color: #134a78;
     position: relative;
-    top: 1%;
+    top: 5%;
   }
   .cover-front:nth-child(1) .permadis {
     font-size: 57px;
