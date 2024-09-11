@@ -19,7 +19,10 @@ body {
   height: 100vh;
   min-width: 900px;
   min-height: 700px;
-  background: #fbecb4;
+  background-image: url('./icon/teratai.jpg');
+  background-size: cover; /* Menutup seluruh elemen */
+  background-position: center; /* Posisi gambar di tengah */
+  background-repeat: no-repeat; /* Tidak mengulang gambar */
   position: relative;
 }
 
@@ -1169,7 +1172,7 @@ body {
 // }
 .cover-front:nth-child(1) .permadis {
   font-size: 57px;
-  width: 28%;
+  width: 20%;
   color: #134a78;
   position: relative;
   top: 15%;
@@ -1262,7 +1265,7 @@ p {
   }
   .cover-front:nth-child(1) .permadis {
     font-size: 57px;
-    width: 35%;
+    width: 20%;
     color: #134a78;
     position: relative;
     top: 40%;
