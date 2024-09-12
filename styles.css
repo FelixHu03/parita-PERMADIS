@@ -1181,6 +1181,14 @@ p {
   font-size: 32px;
 }
 
+.page:nth-child(5) p:first-of-type:first-letter {
+  font-size: 32px;
+}
+
+.page:nth-child(7) p:first-of-type:first-letter {
+  font-size: 32px;
+}
+
 .instruction {
   left: calc(50% - 150px);
   font-size: 26px;
@@ -1205,7 +1213,7 @@ p {
     width: 80%;
     height: 0px;
     background-image: url("./icon/teratai.jpg");
-    background-size: 350% 500%;
+    background-size: 400% 500%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -1272,6 +1280,6 @@ p {
   p {
     margin-bottom: 4%;
     font-family: "EB Garamond", serif;
-    font-size: 48px;
+    font-size: 44px;
   }
 }

@@ -1164,12 +1164,6 @@ body {
   top: 10%;
 }
 
-// .cover-front:nth-child(1) .hat {
-//   font-size: 57px;
-//   color: #134a78;
-//   position: relative;
-//   top: 3%;
-// }
 .cover-front:nth-child(1) .permadis {
   font-size: 57px;
   width: 20%;
@@ -1185,6 +1179,12 @@ p {
 }
 
 .page:nth-child(3) p:first-of-type:first-letter {
+  font-size: 32px;
+}
+.page:nth-child(5) p:first-of-type:first-letter {
+  font-size: 32px;
+}
+.page:nth-child(7) p:first-of-type:first-letter {
   font-size: 32px;
 }
 
@@ -1210,7 +1210,7 @@ p {
     width: 80%;
     height: 0px;
     background-image: url('./icon/teratai.jpg');
-    background-size: 350% 500%; 
+    background-size: 400% 500%; 
     background-position: center; 
     background-repeat: no-repeat;
     position: relative;
@@ -1285,6 +1285,6 @@ p {
   p {
     margin-bottom: 4%;
     font-family: "EB Garamond", serif;
-    font-size: 48px;
+    font-size: 44px;
   }
 }
